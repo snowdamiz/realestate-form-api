@@ -3,7 +3,7 @@ const Lead = data => {
         <h2 style="color: #E05B50">New Real Estate Form Lead</h2>
         <br />
 
-        <span style="font-weight: bold;">Type of Property: </span>${data.type} <br />
+        <span style="font-weight: bold;">Condition of Property: </span>${data.type} <br />
         <span style="font-weight: bold;">Type of Property: </span>${data.condition} <br />
         <span style="font-weight: bold;">Value of Property: </span>${data.value} <br />
         <span style="font-weight: bold;">Sale Timeline: </span>${data.timeline} <br />
