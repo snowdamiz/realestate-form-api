@@ -34,7 +34,7 @@ app.post('/api/send', (req, res) => {
     let mailOptions = {
         from: '"Sam" <sam@gromarketing.io>',
         // to: ['yurlovandrew@gmail.com'],
-        to: ['yurlovandrew@gmail.com'],
+        to: ['leads@freebuyerlocator.com'],
         subject: 'RealEstate Form Leads',
         html: Lead(req.body),
     };    
